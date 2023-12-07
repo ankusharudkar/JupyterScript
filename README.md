@@ -1,4 +1,4 @@
-# jupyterscript README
+# JupyterScript 
 
 An extention to convert jupyter notebooks to python scripts selectively based on cell tags. To use:
 
