@@ -14,8 +14,17 @@
   "contributes": {
     "commands": [{
       "command": "jupyterscript.converter",
-      "title": "Generate Script"
-    }]
+      "title": "JupyterScript: Generate Script"
+    },
+    {
+      "command": "jupyterscript.watcher",
+      "title": "JupyterScript: Continuous Export"
+    },
+    {
+      "command": "jupyterscript.stopWatcher",
+      "title": "JupyterScript: Stop Continuous Export"
+    }
+  ]
   },
   "scripts": {
     "lint": "eslint .",
